@@ -125,6 +125,7 @@ public class Tela_Gravar_Dados extends javax.swing.JFrame {
                 comando.setString(2, nome);
                 comando.setString(3, password);
                 comando.execute();
+                System.exit(0);
                 }catch(Exception e){
                     
                 }
